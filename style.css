@@ -1,0 +1,43 @@
+ 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('C:/Users/Pristixk/Desktop/Белых МИВТ-41/img/back.jpg'); /* Укажите путь к вашему изображению */
+    background-size: cover; /* Изображение будет масштабироваться, чтобы покрыть весь фон */
+    background-position: center; /* Центрирует изображение */
+    background-repeat: no-repeat; /* Избегает повторения изображения */
+}
+
+header {
+    background: rgba(51, 51, 51, 0.8); /* Добавлен полупрозрачный фон для лучшей читаемости текста */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный фон для секции, чтобы текст был читаемым */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(51, 51, 51, 0.8); /* Полупрозрачный фон для футера */
+    color: #fff;
+}
